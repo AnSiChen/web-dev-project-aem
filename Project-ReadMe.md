@@ -24,3 +24,14 @@ Responsive Design: Ensures usability on all devices.
 License
 
 This project is open-source and a license muss still be added to it.
+
+## Color Scheme
+
+| Name   | RGB            | HEX     | 
+|--------|----------------|---------| 
+| black  | 0, 0, 0        | #000000 | 
+| white  | 255, 255, 255  | #FFFFFF | 
+| blue   | 224, 245, 254  | #e0f5fe | 
+| green  | 191, 243, 204  | #BFF3CC | 
+| orange | 250, 236, 218  | #FAECDA | 
+| red    | 250, 231, 230  | #FAE7E6 | 
