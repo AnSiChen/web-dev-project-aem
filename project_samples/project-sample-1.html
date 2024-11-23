@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Em</title>
+     <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+
+<body class="text-black">
+
+    <header class="sticky bg-green-100 text-black shadow-lg top-0">
+        <div class="flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <a href="../index.html">
+                    <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+                </a>
+                <h1 class="text-xl font-bold">Anthony Em</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="menu-toggle" class="block md:hidden p-2 rounded bg-red-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Nav menu -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+                <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+                <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+                <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+                <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+            </nav>
+        </div>
+        <!-- Hamburger menu dropdown -->
+        <nav id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-6 pb-4 bg-green-100">
+            <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+            <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+            <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+            <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+            <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-[80%] px-4 py-8 bg-white">
+        <h1 class="text-3xl font-bold text-center text-black mb-8">Multi-Phase Website Development Case Study</h1>
+
+        <!-- Introduction -->
+        <section class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6 mb-8">
+            <img src="../assets/img/phases.png" alt="Development Phases" class="rounded-lg shadow-md w-full md:w-[400px] object-cover">
+            <div>
+                <h2 class="text-2xl font-bold text-black mb-4">Introduction</h2>
+                <p class="text-black">
+                    The Multi-Phase Website project showcases a systematic approach to web development, divided into clearly defined phases and focusin on Mobile First development. Each stage builds upon the previous one, culminating in a fully functional and visually appealing website. This case study highlights the challenges, solutions, and key outcomes from each phase of development.
+                </p>
+            </div>
+        </section>
+
+        <!-- Technologies and Tools -->
+        <section class="py-8 bg-green-100 rounded-lg shadow-md mb-8">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Technologies and Tools</h2>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-black font-medium px-4">
+                <span class="px-4 py-2 bg-white rounded-full shadow">HTML5</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">CSS3</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">JavaScript</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">TailwindCSS</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">GitHub</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">FTP Deployment</span>
+            </div>
+        </section>
+
+        <!-- Case Study Content -->
+        <section class="space-y-8">
+            <!-- Phase 1 -->
+            <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-black mb-4">Phase 1: Setting the Foundation</h2>
+                <p class="text-black mb-4">
+                    The first phase focused on laying a solid foundation for the website. This included setting up the project structure and creating the initial semantic HTML markup to represent the design concept. By using semantic tags, we ensured the content was accessible and well-structured from the outset.
+                </p>
+                <h3 class="text-lg font-semibold text-black mb-2">Key Achievements:</h3>
+                <ul class="list-disc list-inside text-black space-y-2">
+                    <li>Set up project folders and organized the initial file structure.</li>
+                    <li>Incorporated semantic HTML for clarity and accessibility.</li>
+                    <li>Deployed and validated the code to ensure a strong start.</li>
+                </ul>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-black mb-4">Phase 2: Designing the Layout</h2>
+                <p class="text-black mb-4">
+                    In this phase, we focused on creating the visual structure of the website. A CSS Reset was introduced to standardize styling across browsers, followed by the creation of a custom CSS file for the layout. This ensured a clean and consistent design language.
+                </p>
+                <h3 class="text-lg font-semibold text-black mb-2">Key Achievements:</h3>
+                <ul class="list-disc list-inside text-black space-y-2">
+                    <li>Implemented a CSS Reset to maintain cross-browser consistency.</li>
+                    <li>Developed a cohesive layout using custom CSS.</li>
+                    <li>Deployed and validated the updated design.</li>
+                </ul>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-black mb-4">Phase 3: Enhancing Content</h2>
+                <p class="text-black mb-4">
+                    This phase involved enriching the website with additional content, imagery, and media. Styling was refined to ensure the visual elements aligned with the overall theme, creating a more engaging user experience.
+                </p>
+                <h3 class="text-lg font-semibold text-black mb-2">Key Achievements:</h3>
+                <ul class="list-disc list-inside text-black space-y-2">
+                    <li>Added new media, including images and interactive content.</li>
+                    <li>Polished styling for a more professional look.</li>
+                    <li>Validated and tested the updated content and layout.</li>
+                </ul>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-black mb-4">Phase 4: Adding Interactivity using NINJA API</h2>
+                <p class="text-black mb-4">
+                    JavaScript was introduced to add dynamic functionality to the website. The solution focused on solving a specific problem while displaying results in a designated area. This phase demonstrated the integration of programming logic with design.
+                </p>
+                <h3 class="text-lg font-semibold text-black mb-2">Key Achievements:</h3>
+                <ul class="list-disc list-inside text-black space-y-2">
+                    <li>Developed a JavaScript solution for the integration of two API routes into the website.</li>
+                    <li>Integrated results seamlessly into the page design.</li>
+                    <li>Deployed and validated the functionality.</li>
+                </ul>
+            </div>
+
+            <!-- Phase 5 -->
+            <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                <h2 class="text-xl font-bold text-black mb-4">Phase 5: Modernizing with TailwindCSS</h2>
+                <p class="text-black mb-4">
+                    The final phase introduced TailwindCSS to modernize the design. The site was integrated into an index page, linking all previous phases cohesively. Deployment to the NM TAFE ScreenCraft server marked the completion of the project.
+                </p>
+                <h3 class="text-lg font-semibold text-black mb-2">Key Achievements:</h3>
+                <ul class="list-disc list-inside text-black space-y-2">
+                    <li>Implemented TailwindCSS for responsive and efficient styling.</li>
+                    <li>Connected all phases through a central index page.</li>
+                    <li>Deployed the final site to the designated server. Available for view at <a href="https://dev.screencraft.net.au/~estupian/ " class="text-blue-500">NM TAFE's ScreenCraft</a> </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="py-8 bg-green-50 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Conclusion</h2>
+            <p class="text-black text-center">
+                The Multi-Phase Website project highlights the importance of a structured approach to web development. By completing each phase sequentially, we achieved a cohesive, functional, and modern website that meets all technical and design requirements.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-black py-4">
+            <p>For more information about this project, get in contact using the <a href="../contact.html" class="text-blue-500">contact page.</a> </p>
+        </footer>
+    </main>
+
+    <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
+        <!-- Logo Section -->
+        <div class="flex justify-start">
+            <a href="https://anthonyem.com">
+                <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+            </a>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-lg text-black mb-2">Site Map</h2>
+            <ul class="flex flex-row items-center justify-center gap-4">
+                <li><a href="../index.html" class="text-black underline">Home</a></li>
+                <li><a href="../contact.html" class="text-black underline">Contact</a></li>
+                <li><a href="../about.html" class="text-black underline">About</a></li>
+                <li><a href="../resume.html" class="text-black underline">Resumé</a></li>
+                <li><a href="../projects.html" class="text-black underline">Projects</a></li>
+            </ul>
+
+            <!-- copyright -->
+            <div class="text-center md:justify-self-end">
+                <p class="text-black text-sm">
+                    © Copyright 2024 Anthony Em. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
