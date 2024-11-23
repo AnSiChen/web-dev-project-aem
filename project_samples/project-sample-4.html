@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Em</title>
+     <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+
+<body class="text-black">
+
+    <header class="sticky bg-green-100 text-black shadow-lg top-0">
+        <div class="flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <a href="../index.html">
+                    <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+                </a>
+                <h1 class="text-xl font-bold">Anthony Em</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="menu-toggle" class="block md:hidden p-2 rounded bg-red-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Nav menu -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+                <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+                <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+                <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+                <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+            </nav>
+        </div>
+        <!-- Hamburger menu dropdown -->
+        <nav id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-6 pb-4 bg-green-100">
+            <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+            <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+            <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+            <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+            <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-[80%] px-4 py-8 bg-white">
+        <h1 class="text-3xl font-bold text-center text-black mb-8">AstroMao Suite Case Study (Ongoing)</h1>
+
+        <section class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6 mb-8">
+            <img src="https://anthonyem.com/static/images/anthony_em-astromao_productivity_and_collaboration.png" alt="AstroMao Suite" class="rounded-lg shadow-md w-full md:w-[400px] object-cover">
+            <div>
+                <h2 class="text-2xl font-bold text-black mb-4">Project Overview</h2>
+                <p class="text-black">
+                    The AstroMao Suite is an ongoing project aimed at helping with productivity and collaboration. Created with the vision to make growth accessible to communities worldwide, AstroMao provides an enriched digital experience through a suite of tools including a Daily Dashboard, Live Chat, a CV/Resume Builder, and a Web Designer for portfolio creation. We focus on user-centric design, scalability, and continuous improvement based on feedback.
+                </p>
+            </div>
+        </section>
+
+        <!-- Technologies and Tools -->
+        <section class="py-8 bg-green-100 rounded-lg shadow-md mb-8">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Technologies and Tools Used</h2>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-black font-medium px-4">
+                <span class="px-4 py-2 bg-white rounded-full shadow">Django</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">HTML</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">JavaScript</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">CSS</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Docker</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Docker-Compose</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Nginx</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">CI/CD Tools</span>
+            </div>
+        </section>
+
+        <!-- Development Phases -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-black mb-6 text-center">Development Phases</h2>
+            <p class="text-black mb-4">
+                The development of the AstroMao Suite is an ongoing process, structured into phases to ensure user-focused design, technical excellence, and continuous innovation.
+            </p>
+
+            <!-- Phases List -->
+            <div class="space-y-8">
+                <!-- Phase 1 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 1: Vision and Foundation</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Started AstroMao with a vision to make personal and professional growth accessible to global communities.</li>
+                        <li>Defined the core suite of tools: Daily Dashboard, Live Chat, CV/Resume Builder, and Web Designer.</li>
+                        <li>Established scalable infrastructure using Docker, Docker-Compose, and Nginx.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 2: Development and Launch</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Designed and implemented the suite of tools with user-friendly interfaces (Currently in development).</li>
+                        <li>Launched AstroMao globally with CI/CD pipelines to support streamlined updates.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 3: User Feedback and Refinement</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Incorporated user feedback to improve functionality and usability.</li>
+                        <li>Expanded team roles, including a Creative Director, to guide further development.</li>
+                        <li>Enhanced the Live Chat feature with real-time updates and cross-device compatibility.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 4: Scalability and Global Access</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Optimized infrastructure to ensure scalability for a growing user base.</li>
+                        <li>Configured Nginx to handle dynamic routing for better application accessibility.</li>
+                        <li>Expanded CI/CD pipelines for faster and more efficient updates.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 5 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 5: Ongoing Evolution</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Continuously refining features based on user needs and feedback.</li>
+                        <li>Exploring new tools and technologies to enhance the suite’s capabilities.</li>
+                        <li>Fostering community engagement to shape AstroMao’s future direction.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="py-8 bg-green-50 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Conclusion</h2>
+            <p class="text-black text-center">
+                AstroMao Suite is more than just a productivity platform, it’s a vision for global collaboration and growth. By integrating advanced technologies with a user-centric approach, AstroMao continues to evolve as a tool for empowering individuals and communities worldwide.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-black py-4">
+            <p>For more information about this project, get in contact using the <a href="../contact.html" class="text-blue-500">contact page.</a> </p>
+        </footer>
+    </main>
+
+    <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
+        <!-- Logo Section -->
+        <div class="flex justify-start">
+            <a href="https://anthonyem.com">
+                <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+            </a>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-lg text-black mb-2">Site Map</h2>
+            <ul class="flex flex-row items-center justify-center gap-4">
+                <li><a href="../index.html" class="text-black underline">Home</a></li>
+                <li><a href="../contact.html" class="text-black underline">Contact</a></li>
+                <li><a href="../about.html" class="text-black underline">About</a></li>
+                <li><a href="../resume.html" class="text-black underline">Resumé</a></li>
+                <li><a href="../projects.html" class="text-black underline">Projects</a></li>
+            </ul>
+
+            <!-- copyright -->
+            <div class="text-center md:justify-self-end">
+                <p class="text-black text-sm">
+                    © Copyright 2024 Anthony Em. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
