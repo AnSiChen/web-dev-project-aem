@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Em</title>
+     <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+
+<body class="text-black">
+
+    <header class="sticky bg-green-100 text-black shadow-lg top-0">
+        <div class="flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <a href="index.html">
+                    <img src="./assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+                </a>
+                <h1 class="text-xl font-bold">Anthony Em</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="menu-toggle" class="block md:hidden p-2 rounded bg-red-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Nav menu -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="." class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+                <a href="contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+                <a href="about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+                <a href="resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+                <a href="projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+            </nav>
+        </div>
+        <!-- Hamburger menu dropdown -->
+        <nav id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-6 pb-4 bg-green-100">
+            <a href="." class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+            <a href="contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+            <a href="about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+            <a href="resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+            <a href="projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-[60%] px-4 py-8 bg-white">
+        <!-- About Me -->
+        <section class="flex flex-col md:flex-row items-center md:items-center space-y-4 md:space-y-0 md:space-x-6 mb-8">
+            <img src="https://plus.unsplash.com/premium_photo-1682308363802-00e87e9c2d33?q=80&w=1843&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 alt="Anthony Em Portrait"
+                 class="rounded-lg shadow-md w-full md:w-[400px] object-cover mx-auto">
+            <div class="flex flex-col justify-center items-center text-center md:text-left max-w-[500px]">
+                <h2 class="text-2xl font-bold text-black">About Me</h2>
+                <p class="text-black mt-2">
+                    Hi there! I'm Anthony Em, a software developer, sci-fi and thriller writer with a passion for technology and exploration.
+                    My journey has taken me to reside in at least five countries, instilling a deep appreciation for languages and diverse cultures.
+                </p>
+                <p class="text-black mt-2">
+                    With a foundation in technical expertise, I excel in clear communication, drawing from my experience teaching languages.
+                    Each project is an exciting puzzle, an opportunity to craft accessible and intuitive technology.
+                </p>
+            </div>
+        </section>
+
+        <!-- Philosophy & Passion -->
+        <section class="flex flex-col md:flex-row items-center md:items-center space-y-4 md:space-y-0 md:space-x-6 mb-8">
+            <div class="flex flex-col justify-center items-center text-center md:text-left max-w-[500px]">
+                <h2 class="text-2xl font-bold text-black">Philosophy & Passion</h2>
+                <p class="text-black mt-2">
+                    My work is driven by a philosophy that tech should not only function but also inspire and engage.
+                    My passion for the cosmos and life's big questions informs my creative and inquisitive nature.
+                </p>
+                <p class="text-black mt-2">
+                    Whether I'm learning new languages or exploring tech and cosmic concepts, I'm always in the company of my curious cats,
+                    whose agility inspires my approach to innovation. Together, we navigate the vastness of technology and space,
+                    dedicated to uncovering new horizons.
+                </p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1634838037553-66f5ce322212?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                 alt="Anthony's Inspiration"
+                 class="rounded-lg shadow-md w-full md:w-[400px] object-cover mx-auto">
+        </section>
+
+        <!-- Personal Images -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <img src="https://images.unsplash.com/photo-1527416876370-fb74d128c3dc?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cats" class="rounded-lg shadow-md w-full object-cover">
+            <img src="https://images.unsplash.com/photo-1654441895019-62a3d20846dd?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Stargazing" class="rounded-lg shadow-md w-full object-cover">
+            <img src="https://images.unsplash.com/photo-1616330682546-2468b2d8dd17?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Library" class="rounded-lg shadow-md w-full object-cover">
+        </section>
+    </main>
+
+
+
+
+    <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
+        <!-- Logo Section -->
+        <div class="flex justify-start">
+            <a href="https://anthonyem.com">
+                <img src="./assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+            </a>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-lg text-black mb-2">Site Map</h2>
+            <ul class="flex flex-row items-center justify-center gap-4">
+                <li><a href="index.html" class="text-black underline">Home</a></li>
+                <li><a href="contact.html" class="text-black underline">Contact</a></li>
+                <li><a href="about.html" class="text-black underline">About</a></li>
+                <li><a href="resume.html" class="text-black underline">Resumé</a></li>
+                <li><a href="projects.html" class="text-black underline">Projects</a></li>
+            </ul>
+
+            <!-- copyright -->
+            <div class="text-center md:justify-self-end">
+                <p class="text-black text-sm">
+                    © Copyright 2024 Anthony Em. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

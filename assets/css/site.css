@@ -763,6 +763,10 @@ video {
   max-width: 60%;
 }
 
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1207,6 +1211,10 @@ video {
 
   .md\:w-\[600px\] {
     width: 600px;
+  }
+
+  .md\:w-\[400px\] {
+    width: 400px;
   }
 
   .md\:grid-cols-3 {
