@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Em</title>
+     <link rel="stylesheet" href="../assets/css/site.css">
+</head>
+
+<body class="text-black">
+
+    <header class="sticky bg-green-100 text-black shadow-lg top-0">
+        <div class="flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <a href="../index.html">
+                    <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+                </a>
+                <h1 class="text-xl font-bold">Anthony Em</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="menu-toggle" class="block md:hidden p-2 rounded bg-red-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Nav menu -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+                <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+                <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+                <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+                <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+            </nav>
+        </div>
+        <!-- Hamburger menu dropdown -->
+        <nav id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-6 pb-4 bg-green-100">
+            <a href="../index.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+            <a href="../contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+            <a href="../about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+            <a href="../resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+            <a href="../projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-[80%] px-4 py-8 bg-white">
+        <h1 class="text-3xl font-bold text-center text-black mb-8">PySeas: Inventory System Integration (Ongoing)</h1>
+
+
+        <section class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6 mb-8">
+            <img src="https://camo.githubusercontent.com/25c210259ebd728499e3e1f2e6bfa42404850513e305f4d814f2793025c72da2/68747470733a2f2f692e706f7374696d672e63632f4e4d355233747a572f313030783130302d6d61702e706e67" alt="PySeas Opensource" class="rounded-lg shadow-md w-full md:w-[400px] object-cover">
+            <div>
+                <h2 class="text-2xl font-bold text-black mb-4">Project Overview</h2>
+                <p class="text-black">
+                    The PySeas project is an open-source initiative aimed at enhancing the gaming experience through community-driven development. As part of this collaborative effort, I contributed by addressing <a href="https://github.com/ultimateownsz/PySeas/issues/41" class="text-blue-500 underline">issue #41</a>, which involved integrating a basic inventory system. This feature allows players to manage items effectively, including adding, removing, and utilizing them within the game environment. My contributions included designing and implementing key functionalities, as well as collaborating with other contributors to refine the graphical user interface (GUI) for seamless interaction.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Technologies and Tools -->
+        <section class="py-8 bg-green-100 rounded-lg shadow-md mb-8">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Technologies and Tools Used</h2>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-black font-medium px-4">
+                <span class="px-4 py-2 bg-white rounded-full shadow">Python</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Pygame</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Ruff</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Mypy</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">GitHub</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Agile Development</span>
+            </div>
+        </section>
+
+        <!-- Development Phases -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold text-black mb-6 text-center">Development Phases</h2>
+            <p class="text-black mb-4">
+                The development of the inventory system was structured into distinct phases to ensure systematic progress and quality assurance.
+            </p>
+
+            <!-- Phases List -->
+            <div class="space-y-8">
+                <!-- Phase 1 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 1: Requirement Analysis</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Identified the need for a basic functioning inventory system as per user story #41.</li>
+                        <li>Defined core functionalities: adding items, removing items, viewing inventory, and using items.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 2: Design and Planning</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Designed the inventory system architecture to integrate seamlessly with existing game mechanics.</li>
+                        <li>Planned the GUI layout for intuitive user interaction.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 3: Implementation</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Developed the inventory system, enabling players to add, remove, and use items.</li>
+                        <li>Integrated the GUI for the inventory, providing a visual interface for item management including working with Sprite Image Sheets.</li>
+                        <li>Ensured the system met the requirements outlined in issue #41.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 4: Testing and Validation</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Conducted unit and integration testing to ensure functionality and stability.</li>
+                        <li>Validated the system against user stories and acceptance criteria.</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 5 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-black mb-4">Phase 5: Deployment and Review</h3>
+                    <ul class="list-disc list-inside text-black space-y-2">
+                        <li>Deployed the updated game version with the inventory system integrated.</li>
+                        <li>Gathered collaborators' feedback to identify areas for improvement (ongoing).</li>
+                        <li>Reviewed the development process to document lessons learned and best practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="py-8 bg-green-50 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold text-center text-black mb-6">Conclusion</h2>
+            <p class="text-black text-center">
+                The integration of the inventory system into PySeas marks a significant enhancement in gameplay, providing players with essential item management capabilities. This development journey underscores the importance of structured phases, from requirement analysis to deployment, ensuring a robust and user-centric feature addition.
+            </p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-black py-4">
+            <p>For more information about this project, visit the <a href="https://github.com/ultimateownsz/PySeas" class="text-blue-500">PySeas GitHub repository</a>.</p>
+        </footer>
+    </main>
+
+
+    <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
+        <!-- Logo Section -->
+        <div class="flex justify-start">
+            <a href="https://anthonyem.com">
+                <img src="../assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+            </a>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-lg text-black mb-2">Site Map</h2>
+            <ul class="flex flex-row items-center justify-center gap-4">
+                <li><a href="../index.html" class="text-black underline">Home</a></li>
+                <li><a href="../contact.html" class="text-black underline">Contact</a></li>
+                <li><a href="../about.html" class="text-black underline">About</a></li>
+                <li><a href="../resume.html" class="text-black underline">Resumé</a></li>
+                <li><a href="../projects.html" class="text-black underline">Projects</a></li>
+            </ul>
+
+            <!-- copyright -->
+            <div class="text-center md:justify-self-end">
+                <p class="text-black text-sm">
+                    © Copyright 2024 Anthony Em. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
