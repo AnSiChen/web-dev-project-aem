@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Em</title>
+     <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+
+<body class="text-black">
+
+    <header class="sticky bg-green-100 text-black shadow-lg top-0">
+        <div class="flex items-center justify-between px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-4">
+                <a href="index.html">
+                    <img src="./assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+                </a>
+                <h1 class="text-xl font-bold">Anthony Em</h1>
+            </div>
+            <!-- Hamburger Button -->
+            <button id="menu-toggle" class="block md:hidden p-2 rounded bg-red-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <!-- Nav menu -->
+            <nav id="menu" class="hidden md:flex space-x-6">
+                <a href="." class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+                <a href="contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+                <a href="about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+                <a href="resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+                <a href="projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+            </nav>
+        </div>
+        <!-- Hamburger menu dropdown -->
+        <nav id="mobile-menu" class="hidden md:hidden flex flex-col space-y-2 px-6 pb-4 bg-green-100">
+            <a href="." class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Home</a>
+            <a href="contact.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Contact</a>
+            <a href="about.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">About</a>
+            <a href="resume.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Resumé</a>
+            <a href="projects.html" class="text-black font-bold py-2 px-4 rounded-md bg-red-100">Projects</a>
+        </nav>
+    </header>
+
+    <main class="mx-auto max-w-[60%] px-4 py-8 bg-white space-y-12">
+        <!-- Experience -->
+        <section>
+            <h2 class="text-3xl font-bold text-black mb-4">Experience</h2>
+
+            <!-- Experience 1 -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Full Stack Developer - Annya Rivas The Project
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Remote | June 2023 - 2024 (Hiatus)
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Developed a dynamic web application for easy blog management</li>
+                    <li>Integrated social elements for user interaction</li>
+                    <li>Designed a mobile-responsive interface</li>
+                    <li>Populated the application with data from an external API</li>
+                </ul>
+                <p class="text-gray-700 mt-4">
+                    Developed a dynamic web application using Django, JavaScript, and SQLite...
+                </p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div>
+                <h3 class="text-2xl font-semibold text-black">
+                    Project Manager - Annya Entre Letras
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Remote | October 2018 - August 2022
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Managed a team of writers, programmers, designers, and editors</li>
+                    <li>Coordinated content creation and publication</li>
+                    <li>Developed and implemented a content strategy</li>
+                    <li>Monitored and analyzed content performance</li>
+                </ul>
+                <p class="text-gray-700 mt-4">
+                    Managed a team of writers, programmers, designers, and editors, coordinating content creation and publication...
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience 3 -->
+
+        <div class="mb-8">
+            <h3 class="text-2xl font-semibold text-black">
+                Language Instructor
+            </h3>
+            <p class="text-gray-600 text-sm">
+                On-Site and Remote | 2020 - Present
+            </p>
+            <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                <li>Developed and delivered tailored lesson plans, ensuring effective learning outcomes for students of diverse backgrounds</li>
+                <li>Utilized technology to create interactive teaching materials, enhancing engagement and comprehension</li>
+                <li>Collaborated with an international team to design curriculum and monitor student progress</li>
+                <li>Mentored students, improving their proficiency and confidence in communication</li>
+                <li>Applied data-driven approaches to track performance and refine teaching strategies</li>
+            </ul>
+        </div>
+
+        <!-- Skills -->
+        <section class="py-8 bg-green-100 rounded-lg shadow-md">
+            <h2 class="text-3xl font-bold text-center text-black mb-4">Skills</h2>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-black font-medium">
+                <!-- Programming Languages -->
+                <span class="px-4 py-2 bg-white rounded-full shadow">Python</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">JavaScript</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">C#</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">SQL</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">SQLite</span>
+
+                <!-- Web Development -->
+                <span class="px-4 py-2 bg-white rounded-full shadow">HTML</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">CSS</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">TailwindCSS</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Django</span>
+
+                <!-- Frameworks/Tools -->
+                <span class="px-4 py-2 bg-white rounded-full shadow">.NET Maui</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">WPF</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Docker</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">CI/CD</span>
+
+                <!-- Others -->
+                <span class="px-4 py-2 bg-white rounded-full shadow">Linux</span>
+            </div>
+        </section>
+
+        <!-- Languages -->
+        <section class="py-8 bg-blue-100 rounded-lg shadow-md mt-8">
+            <h2 class="text-3xl font-bold text-center text-black mb-4">Languages</h2>
+            <div class="flex flex-wrap justify-center items-center gap-4 text-black font-medium">
+                <span class="px-4 py-2 bg-white rounded-full shadow">English (Fluent)</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Mandarin (Fluent)</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Spanish (Fluent)</span>
+                <span class="px-4 py-2 bg-white rounded-full shadow">Korean (Beginner)</span>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-bold text-black mb-4">Education</h2>
+
+            <!-- CertIV in IT -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    CertIV in IT [Programming]
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Australia | 2024 - Present
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Developing skills in programming languages, UI design, and software testing</li>
+                    <li>Acquiring knowledge in database development, software libraries, and programming methodologies</li>
+                    <li>Exploring cybersecurity, collaborative ICT work, and IP policies</li>
+                </ul>
+            </div>
+
+            <!-- Diploma of IT -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Diploma of IT [Advanced Programming]
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Australia | Expected Completion December 2025
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Specialization in software development and advanced programming</li>
+                    <li>Learning data management and building advanced user interfaces</li>
+                    <li>Preparing for real-world challenges with industry projects</li>
+                </ul>
+            </div>
+
+            <!-- Teaching Chinese to Speakers of Other Languages (TCSOL) -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Teaching Chinese to Speakers of Other Languages (TCSOL)
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Shenzhen University & Tianjin Foreign Studies University | China | 2019 - 2023
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Prepared in teaching Chinese as a foreign language</li>
+                    <li>Gained expertise in linguistics, second language acquisition, and Chinese cultural studies</li>
+                    <li>Developed curriculum design and language pedagogy skills for diverse learners</li>
+                    <li>Conducted teaching practicums in immersive language environments</li>
+                    <li>Achieved proficiency in Mandarin, with a focus on grammar, phonetics, and cultural integration</li>
+                </ul>
+            </div>
+
+            <!-- CS50 Web Programming -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    CS50 Web Programming with Python and JavaScript
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Online | Course Completed 02-01-2024
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Studied web development using Python and JavaScript, including Django frameworks</li>
+                    <li>Gained expertise in front-end and back-end web technologies</li>
+                    <li>Certification pending, expected to validate technical versatility</li>
+                </ul>
+            </div>
+
+            <!-- CS50 Introduction to Python Programming -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    CS50 Introduction to Python Programming
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Online | Completed 02-01-2024
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Completed an in-depth course focused on Python programming</li>
+                    <li>Acquired a solid foundation in Python, enhancing problem-solving skills</li>
+                    <li>Achieved certification, demonstrating proficiency in Python programming</li>
+                </ul>
+            </div>
+
+            <!-- Cisco Cybersecurity Essentials -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Cisco Cybersecurity Essentials (Instructor-Led)
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Cisco Networking Academy | Online | Expected Completion November 2024
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Developed foundational understanding of cybersecurity principles and technologies</li>
+                    <li>Engaged in interactive content including practice labs, activities, videos, and assessments</li>
+                    <li>Explored real-world scenarios to understand modern cyber threats and defense mechanisms</li>
+                    <li>Participated in instructor-led sessions to enhance learning through guided instruction</li>
+                </ul>
+            </div>
+
+            <!-- Introduction to Data Science -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Introduction to Data Science
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Cisco Networking Academy | Completed 25-04-2024
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Explored the fundamentals of data science and analytics</li>
+                    <li>Engaged with artificial intelligence and machine learning modules</li>
+                    <li>Gained insights into big data collection, storage, and management</li>
+                </ul>
+            </div>
+
+            <!-- Introduction to IoT -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    Introduction to Internet of Things (IoT)
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Cisco Networking Academy | Completed 28-04-2024
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Explored the impacts of digitization and IoT on industries</li>
+                    <li>Learned networking foundations and practical IoT device integration</li>
+                    <li>Focused on automation, AI, machine learning, and cybersecurity essentials</li>
+                </ul>
+            </div>
+
+            <!-- CS50 Introduction to Databases with SQL -->
+            <div class="mb-8">
+                <h3 class="text-2xl font-semibold text-black">
+                    CS50's Introduction to Databases with SQL
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    HarvardX | Online | Expected Completion 2025
+                </p>
+                <ul class="list-disc list-inside text-black mt-2 space-y-2">
+                    <li>Learned to create, read, update, and delete data using SQL with relational databases</li>
+                    <li>Modeled real-world entities and relationships using tables with appropriate types, triggers, and constraints</li>
+                    <li>Normalized data to eliminate redundancies and reduce potential for errors</li>
+                    <li>Joined tables using primary and foreign keys to manage complex datasets</li>
+                    <li>Automated searches with views and expedited searches with indexes</li>
+                    <li>Connected SQL with other languages like Python and Java for integrated applications</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
+        <!-- Logo Section -->
+        <div class="flex justify-start">
+            <a href="https://anthonyem.com">
+                <img src="./assets/img/logo-port.png" alt="Logo" class="rounded-full w-12 h-12">
+            </a>
+        </div>
+
+        <!-- Site Map -->
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-lg text-black mb-2">Site Map</h2>
+            <ul class="flex flex-row items-center justify-center gap-4">
+                <li><a href="index.html" class="text-black underline">Home</a></li>
+                <li><a href="contact.html" class="text-black underline">Contact</a></li>
+                <li><a href="about.html" class="text-black underline">About</a></li>
+                <li><a href="resume.html" class="text-black underline">Resumé</a></li>
+                <li><a href="projects.html" class="text-black underline">Projects</a></li>
+            </ul>
+
+            <!-- copyright -->
+            <div class="text-center md:justify-self-end">
+                <p class="text-black text-sm">
+                    © Copyright 2024 Anthony Em. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
