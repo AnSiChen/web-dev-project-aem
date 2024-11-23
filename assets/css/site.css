@@ -699,6 +699,10 @@ video {
   height: 0.625rem;
 }
 
+.h-\[250px\] {
+  height: 250px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -747,6 +751,10 @@ video {
   width: 580px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -769,6 +777,10 @@ video {
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-\[80\%\] {
+  max-width: 80%;
 }
 
 .flex-grow {
