@@ -1,0 +1,237 @@
+/* Phase 4 */
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --sky-blue: #87CEEB;
+  --bright-yellow: #FFFF00;
+  --dark-cyan: #008B8B;
+  --coral: #FF7F50;
+}
+
+/* Mobile-First Version: Default */
+
+
+/* Typography */
+body {
+    font-family: "Arial", "Helvetica", sans-serif;]
+}
+
+/* Headings */
+h1 {
+    font-size: 1.75rem;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+h4 {
+    font-size: 0.875rem;
+    padding: 5px;
+}
+
+/* Paragraph */
+p {
+    font-size: 0.875rem;
+    padding: 5px;
+}
+
+/* Aside: API section Styling*/
+
+.aside-section-header {
+        background-color: var(--coral);
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+.api-section {
+    margin: 20px;
+    background-color: var(--white);
+    padding: 10px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.api-checkbox-area {
+    padding: 10px;
+}
+
+.api-input-area {
+    padding: 10px;
+}
+
+.api-input-area input[type="text"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: var(--black);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#api-response-text {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 5px;
+    text-align: center;
+    max-width: 180px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    display: none;
+    height: auto;
+    white-space: normal;
+}
+
+#api-error-message {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--coral);
+    border-radius: 5px;
+    display: none;
+}
+
+.aside-section-content button {
+    margin-top: 10px;
+    background: var(--bright-yellow);
+    color: var(--black);
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 50%;
+}
+
+.aside-section-content button:hover {
+    background: var(--sky-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+article {
+    padding: 15px;
+    border: 2px solid var(--sky-blue);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.article-images {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.article-images-caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.aside-images {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.aside-images-caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+
+    /* header */
+
+
+    /* main */
+
+    main {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 10px;
+        margin-top: 120px;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        margin-top: 21px;
+        border: 1px solid var(--coral);
+        height: 100%;
+        border-radius: 10px;
+        background-color: var(--sky-blue);
+    }
+
+    .aside-section {
+        padding: 5px;
+    }
+
+    .aside-section-header, .aside-section-footer {
+        background-color: var(--coral);
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .aside-section-content {
+        padding: 10px;
+    }
+
+    .aside-section-extra {
+        padding: 10px;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        flex: 1 1 20%;
+    }
+
+    article {
+        background-color: var(--white);
+        margin: 10px;
+        border: 2px solid var(--sky-blue);
+        border-radius: 10px;
+    }
+
+    .article-images {
+        width: 500px;
+    }
+
+}

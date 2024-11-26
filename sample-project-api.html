@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anthony Em</title>
      <link rel="stylesheet" href="./assets/css/site.css">
+    <link rel="stylesheet" href="./assets/css/main-api-project.css">
 </head>
 
 <body class="text-black">
@@ -46,48 +47,44 @@
         </nav>
     </header>
 
-    <main class="mx-auto max-w-[80%] px-4 py-8 bg-white">
-        <h1 class="text-3xl font-bold text-center text-black mb-8">Projects</h1>
+<main>
+    <section class="aside-section aside-section-position-one">
+                <header class="aside-section-header">
+                    <h3>Ninja API</h3>
+                </header>
 
-        <!-- Projects Grid -->
-        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <!-- Project 1 -->
-            <a href="./project_samples/project-sample-1.html" class="block text-center">
-                <img src="./assets/img/phases.png" alt="Multi-Phase Website" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">Multi-Phase Website</h2>
-            </a>
+                <div class="aside-image-wrapper">
+                    <img src="./assets/img/programming.png"  class="aside-images" alt="Programming Joke">
+                    <p class="aside-images-caption">Something doesn't work.</p>
+                </div>
 
-            <!-- Project 2 -->
-            <a href="./project_samples/project-sample-2.html" class="block text-center">
-                <img src="https://camo.githubusercontent.com/25c210259ebd728499e3e1f2e6bfa42404850513e305f4d814f2793025c72da2/68747470733a2f2f692e706f7374696d672e63632f4e4d355233747a572f313030783130302d6d61702e706e67" alt="PySeas Opensource" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">PySeas Opensource</h2>
-            </a>
+                <section class="aside-section-content">
+                    <div class="api-section">
+                        <header>
+                            <h4>Select your inquiry:</h4>
+                        </header>
 
-            <!-- Project 3 -->
-            <a href="./project_samples/project-sample-3.html" class="block text-center">
-                <img src="https://anthonyem.com/static/images/anthony_em-devops-infrastructure.png" alt="DevOps Infrastructure" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">DevOps Infrastructure</h2>
-            </a>
+                        <div class="api-checkbox-area">
+                            <label>
+                                <input type="checkbox" id="dictionary-checkbox" name="api-routes" value="dictionary"> Dictionary
+                            </label>
+                            <label>
+                                <input type="checkbox" id="quotes-checkbox" name="api-routes" value="quotes"> Quotes
+                            </label>
+                        </div>
 
-            <!-- Project 4 -->
-            <a href="./project_samples/project-sample-4.html" class="block text-center">
-                <img src="https://anthonyem.com/static/images/anthony_em-astromao_productivity_and_collaboration.png" alt="AstroMao Suite" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">AstroMao Suite</h2>
-            </a>
+                        <div class="api-input-area">
+                            <label for="parameter-input">Enter your inquiry:</label>
+                            <input type="text" id="parameter-input" placeholder="Word or category...">
+                        </div>
 
-            <!-- Project 5 -->
-            <a href="./project_samples/project-sample-5.html" class="block text-center">
-                <img src="https://anthonyem.com/static/images/anthony_em-automated-database-populator.png" alt="Database Populator" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">Database Populator</h2>
-            </a>
+                        <button id="api-request-button">Submit</button>
 
-            <!-- Project 6 -->
-            <a href="./project_samples/project-sample-6.html" class="block text-center">
-                <img src="https://anthonyem.com/static/images/anthony_em-book-tracking-and-management.png" alt="Book Tracking and Management" class="rounded-lg shadow-md w-[400px] h-[250px] object-cover mx-auto">
-                <h2 class="text-lg font-bold text-black mt-2">Book Tracking and Management</h2>
-            </a>
-        </section>
-    </main>
+                        <div id="api-response-text"></div>
+                        <div id="api-error-message">There has been an error while performing your inquiry. Please try again.</div>
+                    </div>
+                </section>
+</main>
 
     <footer class="grid grid-cols-1 md:grid-cols-3 items-center bg-green-100 p-4 mt-8">
         <!-- Logo Section -->
@@ -120,5 +117,6 @@
 
 
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/api.js"></script>
 </body>
 </html>
