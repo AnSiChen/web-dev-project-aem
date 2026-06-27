@@ -49,8 +49,9 @@ document.getElementById('api-request-button').addEventListener('click', async fu
     }
 
     let apiUrl = '';
+    // In production, store this in an environment variable (e.g. process.env.API_KEY)
     const headers = {
-        'X-Api-Key': 'u48ds7v9dF4B8yUEAR+9IA==Ey27bWw1vk8FgVrh' // API key obtained from NINJA API
+        'X-Api-Key': 'YOUR_API_KEY_HERE'
     };
 
     if (dictionaryChecked) {
